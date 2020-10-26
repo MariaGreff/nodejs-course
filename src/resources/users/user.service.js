@@ -1,4 +1,4 @@
-const usersRepo = require('./user.memory.repository');
+const usersRepo = require('./user.db.repository');
 const { deleteUserFromTasks } = require('../tasks/task.service');
 
 const getAll = () => usersRepo.getAll();
